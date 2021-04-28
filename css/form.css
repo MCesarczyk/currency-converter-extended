@@ -1,0 +1,75 @@
+.form__fieldset {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.form__legend {
+    color: #fff;
+    background-color: #133246;
+    padding: 10px 20px;
+    border-style: none;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.form__labelText {
+    width: 175px;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.form__labelText--input {
+    margin-left: 55px;
+}
+
+.form__input {
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.form__input--result {
+    margin-top: 20px;
+}
+
+.form__buttonContainer {
+    display: inline-block;
+    width: 100%;
+}
+
+.form__inputContainer {
+    display: block;
+}
+
+.form__list {
+    list-style: none;
+    line-height: 1.75;
+}
+
+.form__buttonContainer {
+    text-align: center;
+}
+
+.form__button {
+    color: #ebe6dc;
+    background-color: #133246;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 10px;
+    width: 45%;
+}
+
+.form__button:hover {
+    background-color: hsl(210, 40%, 30%);
+}
+
+.form__button:active {
+    background-color: hsl(210, 40%, 40%);
+}
