@@ -37,23 +37,35 @@
                 <p>
                 <ul class="form__list">
                     <li>
-                        <input type="radio" name="currency" class="js-eur" checked><span class="form__labelText">
-                            EUR Euro </span><input class="form__input js-ratioEur" value=4.5481 type="number"
+                        <input type="radio" name="currency" id="eur" class="js-eur" checked>
+                        <label class="form__labelText" for="eur">
+                            EUR Euro
+                        </label>
+                        <input class="form__input js-ratioEur" value=4.5481 type="number"
                             min="0.0001" step="0.0001" required>
                     </li>
                     <li>
-                        <input type="radio" name="currency" class="js-usd"><span class="form__labelText"> USD
-                            Dolar amerykański </span><input class="form__input js-ratioUsd" value=3.7978 type="number"
+                        <input type="radio" name="currency" class="js-usd" id="usd">
+                        <label class="form__labelText" for="usd">
+                            USD Dolar amerykański
+                        </label>
+                        <input class="form__input js-ratioUsd" value=3.7978 type="number"
                             min="0.0001" step="0.0001" required>
                     </li>
                     <li>
-                        <input type="radio" name="currency" class="js-bgn"><span class="form__labelText"> BGN
-                            Lew bułgarski </span><input class="form__input js-ratioBgn" value=2.3254 type="number"
+                        <input type="radio" name="currency" class="js-bgn" id="bgn">
+                        <label class="form__labelText" for="bgn">
+                            BGN Lew bułgarski
+                        </label>
+                        <input class="form__input js-ratioBgn" value=2.3254 type="number"
                             min="0.0001" step="0.0001" required>
                     </li>
                     <li>
-                        <input type="radio" name="currency" class="js-hrk"><span class="form__labelText"> HRK
-                            Kuna chorwacka </span><input class="form__input js-ratioHrk" value=0.6011 type="number"
+                        <input type="radio" name="currency" class="js-hrk" id="hrk">
+                        <label class="form__labelText" for="hrk">
+                            HRK Kuna chorwacka
+                        </label>
+                        <input class="form__input js-ratioHrk" value=0.6011 type="number"
                             min="0.0001" step="0.0001" required>
                     </li>
                 </ul>
