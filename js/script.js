@@ -39,7 +39,7 @@ form.addEventListener("submit", (event) => {
 })
 
 form.addEventListener("reset", () => {
-    result.innerText = "Uzyskana kwota:";
+    result.innerText = "Dziękujemy, zapraszamy ponownie :)";
 })
 
 
