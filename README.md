@@ -10,6 +10,14 @@ exercise in using BEM and JS
 
 Converter is to convert from PLN to:
 - Euro
-- american Dollars
-- bulgarian Lew
-- croatian Kuna
+- American Dollars
+- Australian dollars
+- Bulgarian Lew
+- Croatian Kuna
+
+## used techynologies
+
+- html
+- CSS
+- JavaScript/ES6+
+- BEM
