@@ -16,25 +16,3 @@
     border-radius: 20px;
     text-align: center;
 }
-
-.form__buttonContainer {
-    text-align: center;
-}
-
-.form__button {
-    color: #ebe6dc;
-    background-color: #133246;
-    display: inline-block;
-    border-radius: 5px;
-    padding: 5px 10px;
-    margin: 10px;
-    width: 45%;
-}
-
-.form__button:hover {
-    background-color: hsl(210, 40%, 30%);
-}
-
-.form__button:active {
-    background-color: hsl(210, 40%, 40%);
-}

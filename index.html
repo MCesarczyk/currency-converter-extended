@@ -17,6 +17,7 @@
     <link href="css/deposit.css" rel="stylesheet">
     <link href="css/form.css" rel="stylesheet">
     <link href="css/list.css" rel="stylesheet">
+    <link href="css/buttons.css" rel="stylesheet">
     <script defer src="js/script.js"></script>
     <title>e-kantor</title>
     <meta property="og:title" content="Currency converter" />
@@ -34,9 +35,8 @@
                 <fieldset class="form__fieldset">
                     <legend class="form__legend">e-kantor</legend>
                     <label class="deposit">
-                        <span class="deposit__labelText"> Kwota w PLN </span><input
-                            class="deposit__input js-pln" placeholder="Kwota w PLN" type="number" min="0.01" step="any"
-                            required autofocus>
+                        <span class="deposit__labelText"> Kwota w PLN </span><input class="deposit__input js-pln"
+                            placeholder="Kwota w PLN" type="number" min="0.01" step="any" required autofocus>
                     </label>
                 </fieldset>
                 <fieldset class="form__fieldset">
@@ -87,9 +87,9 @@
                 <fieldset class="form__fieldset">
                     <legend class="form__legend">Otrzymana kwota</legend>
                     <p class="form__result js-result">Uzyskana kwota:</p>
-                    <div class="form__buttonContainer">
-                        <button class="form__button form__buttonCalculate">Przelicz</button>
-                        <button class="form__button form__buttonReset js-buttonReset" type="reset">Wyczyść
+                    <div class="buttons">
+                        <button class="buttons__button form__buttonCalculate">Przelicz</button>
+                        <button class="buttons__button form__buttonReset js-buttonReset" type="reset">Wyczyść
                             formularz</button>
                     </div>
                 </fieldset>
