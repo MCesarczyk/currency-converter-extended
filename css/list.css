@@ -1,0 +1,34 @@
+.list {
+    list-style: none;
+    line-height: 1.75;
+}
+
+.list__labelText {
+    width: 175px;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.list__labelText--input {
+    margin-left: 55px;
+}
+
+.list__input {
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.list__input--result {
+    margin-top: 20px;
+}
+
+.list__buttonContainer {
+    display: inline-block;
+    width: 100%;
+}
+
+.list__inputContainer {
+    display: block;
+}

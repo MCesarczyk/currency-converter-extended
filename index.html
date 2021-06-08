@@ -14,7 +14,9 @@
         crossorigin="anonymous" />
     <link href="css/global.css" rel="stylesheet">
     <link href="css/container.css" rel="stylesheet">
+    <link href="css/deposit.css" rel="stylesheet">
     <link href="css/form.css" rel="stylesheet">
+    <link href="css/list.css" rel="stylesheet">
     <script defer src="js/script.js"></script>
     <title>e-kantor</title>
     <meta property="og:title" content="Currency converter" />
@@ -31,56 +33,53 @@
             <form class="form js-form" action="https://postman-echo.com/get">
                 <fieldset class="form__fieldset">
                     <legend class="form__legend">e-kantor</legend>
-                    <p>
-                        <label class="form__label">
-                            <span class="form__labelText form__labelText--input"> Kwota w PLN </span><input
-                                class="form__input js-pln" placeholder="Kwota w PLN" type="number" min="0.01" step="any"
-                                required autofocus>
-                        </label>
-                    </p>
+                    <label class="deposit">
+                        <span class="deposit__labelText"> Kwota w PLN </span><input
+                            class="deposit__input js-pln" placeholder="Kwota w PLN" type="number" min="0.01" step="any"
+                            required autofocus>
+                    </label>
                 </fieldset>
                 <fieldset class="form__fieldset">
                     <legend class="form__legend">Aktualny kurs</legend>
-                    <p>
-                    <ul class="form__list">
+                    <ul class="list">
                         <li>
                             <input type="radio" name="currencyChecked" id="eur" value="EUR" class="js-radio" checked>
-                            <label class="form__labelText" for="eur">
+                            <label class="list__labelText" for="eur">
                                 EUR Euro
                             </label>
-                            <input class="form__input js-ratioEur" value=4.5481 type="number" min="0.0001" step="0.0001"
+                            <input class="list__input js-ratioEur" value=4.5481 type="number" min="0.0001" step="0.0001"
                                 required>
                         </li>
                         <li>
                             <input type="radio" name="currencyChecked" class="js-radio" id="usd" value="USD">
-                            <label class="form__labelText" for="usd">
+                            <label class="list__labelText" for="usd">
                                 USD Dolar amerykański
                             </label>
-                            <input class="form__input js-ratioUsd" value=3.7978 type="number" min="0.0001" step="0.0001"
+                            <input class="list__input js-ratioUsd" value=3.7978 type="number" min="0.0001" step="0.0001"
                                 required>
                         </li>
                         <li>
                             <input type="radio" name="currencyChecked" class="js-radio" id="aud" value="AUD">
-                            <label class="form__labelText" for="aud">
+                            <label class="list__labelText" for="aud">
                                 AUD Dolar australijski
                             </label>
-                            <input class="form__input js-ratioAud" value=2.8517 type="number" min="0.0001" step="0.0001"
+                            <input class="list__input js-ratioAud" value=2.8517 type="number" min="0.0001" step="0.0001"
                                 required>
                         </li>
                         <li>
                             <input type="radio" name="currencyChecked" class="js-radio" id="bgn" value="BGN">
-                            <label class="form__labelText" for="bgn">
+                            <label class="list__labelText" for="bgn">
                                 BGN Lew bułgarski
                             </label>
-                            <input class="form__input js-ratioBgn" value=2.3254 type="number" min="0.0001" step="0.0001"
+                            <input class="list__input js-ratioBgn" value=2.3254 type="number" min="0.0001" step="0.0001"
                                 required>
                         </li>
                         <li>
                             <input type="radio" name="currencyChecked" class="js-radio" id="hrk" value="HRK">
-                            <label class="form__labelText" for="hrk">
+                            <label class="list__labelText" for="hrk">
                                 HRK Kuna chorwacka
                             </label>
-                            <input class="form__input js-ratioHrk" value=0.6011 type="number" min="0.0001" step="0.0001"
+                            <input class="list__input js-ratioHrk" value=0.6011 type="number" min="0.0001" step="0.0001"
                                 required>
                         </li>
                     </ul>
@@ -88,14 +87,14 @@
                 <fieldset class="form__fieldset">
                     <legend class="form__legend">Otrzymana kwota</legend>
                     <p class="form__result js-result">Uzyskana kwota:</p>
-                    <dif class="form__buttonContainer">
+                    <div class="form__buttonContainer">
                         <button class="form__button form__buttonCalculate">Przelicz</button>
                         <button class="form__button form__buttonReset js-buttonReset" type="reset">Wyczyść
                             formularz</button>
+                    </div>
+                </fieldset>
+            </form>
         </div>
-        </fieldset>
-        </form>
-    </div>
     </div>
 </body>
 

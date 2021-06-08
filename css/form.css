@@ -17,41 +17,6 @@
     text-align: center;
 }
 
-.form__labelText {
-    width: 175px;
-    display: inline-block;
-    margin: 0 5px;
-}
-
-.form__labelText--input {
-    margin-left: 55px;
-}
-
-.form__input {
-    width: 100px;
-    display: inline-block;
-    text-align: center;
-    border-radius: 5px;
-}
-
-.form__input--result {
-    margin-top: 20px;
-}
-
-.form__buttonContainer {
-    display: inline-block;
-    width: 100%;
-}
-
-.form__inputContainer {
-    display: block;
-}
-
-.form__list {
-    list-style: none;
-    line-height: 1.75;
-}
-
 .form__buttonContainer {
     text-align: center;
 }
